@@ -31,7 +31,7 @@ After you translated the above files into your language, please inform me by cre
  2. Install Microsoft Visual Studio 2015 / 2017.
  3. Open `LocaleEmulator.sln`.
  4. Perform Build action.
- 5. Clone and build the core libraries: https://github.com/xupefei/Locale-Emulator-Core
+ 5. Clone and build the core libraries: https://github.com/charles7668/Locale-Emulator-Core
  6. Copy LoaderDll.dll and LocaleEmulator.dll from Locale-Emulator-Core to Locale-Emulator build folder.
 
 ## License ##
