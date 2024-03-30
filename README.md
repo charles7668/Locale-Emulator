@@ -1,5 +1,4 @@
-Locale Emulator
-===============
+# Locale Emulator
 
 [![license](https://img.shields.io/github/license/xupefei/Locale-Emulator.svg)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
 [![AppVeyor](https://img.shields.io/appveyor/ci/xupefei/Locale-Emulator.svg)](https://ci.appveyor.com/project/xupefei/Locale-Emulator)
@@ -10,31 +9,31 @@ Yet Another System Region and Language Simulator
 
 ![LE interface](https://i.imgur.com/E4Gqyly.png)
 
-## Download ##
+## Download
 
 Download available at <https://github.com/xupefei/Locale-Emulator/releases>.
 
 For usage, please read <https://xupefei.github.io/Locale-Emulator/> (in English and 中文).
 
-## Translate ##
+## Translate
 
 If you want to help translating Locale Emulator, you can find all strings in
 
- -  `DefaultLanguage.xaml` in `LEGUI/Lang` folder.
- -  `DefaultLanguage.xml` in `LEContextMenuHandler/Lang` folder.
+- `DefaultLanguage.xaml` in `LEGUI/Lang` folder.
+- `DefaultLanguage.xml` in `LEContextMenuHandler/Lang` folder.
 
 After you translated the above files into your language, please inform me by creating a pull request.
 
-## Build ##
+## Build
 
- 1. Clone the repo using Git.
- 2. Install Microsoft Visual Studio 2015 / 2017.
- 3. Open `LocaleEmulator.sln`.
- 4. Perform Build action.
- 5. Clone and build the core libraries: https://github.com/charles7668/Locale-Emulator-Core
- 6. Copy LoaderDll.dll and LocaleEmulator.dll from Locale-Emulator-Core to Locale-Emulator build folder.
+1.  Clone the repo using Git.
+2.  Install Microsoft Visual Studio 2022.
+3.  Open `LocaleEmulator.sln`.
+4.  Perform Build action.
+5.  Clone and build the core libraries: [Locale-Emulator-Core](https://github.com/charles7668/Locale-Emulator-Core)
+6.  Copy LoaderDll.dll and LocaleEmulator.dll from Locale-Emulator-Core to Locale-Emulator build folder.
 
-## License ##
+## License
 
 ![LGPL](https://www.gnu.org/graphics/lgplv3-147x51.png)
 
